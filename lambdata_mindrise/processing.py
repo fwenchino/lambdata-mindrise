@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-
+###Cool stuff
 def null_report(df):
     total = df.isnull().sum()
     perc = total / df.isnull().count() * 100
